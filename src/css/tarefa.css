@@ -1,5 +1,28 @@
 /* Estilo básico para o corpo da página */
-body {
+*{
+    margin: 0;
+}
+.cabecalho{
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+.cabecalho-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-menu{
+    list-style: none;
+    display: flex;
+}
+.cabecalho-menu li{
+    margin-left: 20px;
+}
+.cabecalho-menu a{
+    text-decoration: none;
+    color: black;
+}
+.tarefas {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
