@@ -2,14 +2,26 @@
 *{
     margin: 0;
 }
-.cabecalho{
+body{
     background-color: #f4f4f9;
+}
+.cabecalho{
+    background-color: #000;
     padding: 20px;
+   
 }
 .cabecalho-nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000; /* fundo escuro elegante */
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+  z-index: 1000;
 }
 .cabecalho-menu{
     list-style: none;
@@ -20,7 +32,16 @@
 }
 .cabecalho-menu a{
     text-decoration: none;
-    color: black;
+    color: #f5f5f5;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.cabecalho-menu a:hover{
+    color: #FFD700;
+    text-shadow: 0 0 8px #FFD700;
+
 }
 .tarefas {
     font-family: Arial, sans-serif;
